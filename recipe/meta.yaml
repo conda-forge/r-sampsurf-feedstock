@@ -1,4 +1,4 @@
-{% set version = '0.7-4' %}
+{% set version = "0.7-5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/sampSurf_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/sampSurf/sampSurf_{{ version }}.tar.gz
-  sha256: a7a5f0028ac74191a17957251070cf46c155f1a2c2de4ff3dfe532d24243fa2b
+  sha256: cea439b19c32e71a5a6d6d3f40a336af230e76591014b436f97db7c2432b494f
 
 build:
   merge_build_host: True  # [win]
