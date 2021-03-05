@@ -1,4 +1,4 @@
-{% set version = "0.7-5" %}
+{% set version = "0.7-6" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/sampSurf_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/sampSurf/sampSurf_{{ version }}.tar.gz
-  sha256: cea439b19c32e71a5a6d6d3f40a336af230e76591014b436f97db7c2432b494f
+  sha256: 63deaaed014dac52e855c7b620ade058cc1887eef984a5536c6083dfb36b56b8
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -48,13 +48,10 @@ test:
 about:
   home: http://sampsurf.r-forge.r-project.org/
   license: GPL (>= 3)
-  summary: Sampling surface simulation is useful in the comparison of different areal sampling
-    methods in forestry, ecology and natural resources. The sampSurf package allows
-    the simulation  of numerous sampling methods for standing trees and downed woody
-    debris in a spatial context. It also provides an S4 class and method structure that
-    facilitates the addition of new sampling methods.
+  summary: Sampling surface simulation is useful in the comparison of different areal sampling methods in forestry, ecology and natural resources. The sampSurf package allows the simulation  of numerous sampling methods for standing trees and downed woody debris in a spatial context. It also provides an S4 class and method
+    structure that facilitates the addition of new sampling methods.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
+  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
