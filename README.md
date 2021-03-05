@@ -5,11 +5,9 @@ Home: http://sampsurf.r-forge.r-project.org/
 
 Package license: GPL (>= 3)
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-sampsurf-feedstock/blob/master/LICENSE.txt)
 
 Summary: Sampling surface simulation is useful in the comparison of different areal sampling methods in forestry, ecology and natural resources. The sampSurf package allows the simulation  of numerous sampling methods for standing trees and downed woody debris in a spatial context. It also provides an S4 class and method structure that facilitates the addition of new sampling methods.
-
-
 
 Current build status
 ====================
@@ -108,9 +106,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
