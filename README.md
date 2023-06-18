@@ -1,11 +1,11 @@
-About r-sampsurf
-================
+About r-sampsurf-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-sampsurf-feedstock/blob/main/LICENSE.txt)
 
 Home: http://sampsurf.r-forge.r-project.org/
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-sampsurf-feedstock/blob/main/LICENSE.txt)
 
 Summary: Sampling surface simulation is useful in the comparison of different areal sampling methods in forestry, ecology and natural resources. The sampSurf package allows the simulation  of numerous sampling methods for standing trees and downed woody debris in a spatial context. It also provides an S4 class and method structure that facilitates the addition of new sampling methods.
 
